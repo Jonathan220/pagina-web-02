@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-um{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+.menu-um ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.menu-um ul li{
+    border-right: 1px solid white;
+}
+
+.menu-um ul li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+.menu-um ul li a:hover{
+    background-color: #555;
+}
+
+.menu-um ul li:last-child{
+    border-right: none;
+}
