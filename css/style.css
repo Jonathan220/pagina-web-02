@@ -1,38 +1,114 @@
-body{
-    padding: 0px;
-    margin: 0px;
+body {
+  padding: 0px;
+  margin: 0px;
 }
 
-.menu-um{
-    position: absolute;
-    width: 100%;
-    top: 0px;
+.menu-um {
+  position: absolute;
+  width: 100%;
+  top: 0px;
 }
 
-.menu-um ul{
-    display: flex;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    background-color: black;
-    overflow: hidden;
+.menu-um ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  overflow: hidden;
 }
 
-.menu-um ul li{
-    border-right: 1px solid white;
+.menu-um ul li {
+  border-right: 1px solid white;
 }
 
-.menu-um ul li a{
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 14px;
+.menu-um ul li a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 14px;
 }
 
-.menu-um ul li a:hover{
-    background-color: #555;
+.menu-um ul li a:hover {
+  background-color: #555;
 }
 
-.menu-um ul li:last-child{
-    border-right: none;
+.menu-um ul li:last-child {
+  border-right: none;
+}
+
+nav{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.menu-dois ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  background-color: black;
+}
+
+.menu-dois ul li a,
+.btn-submenu-home,
+.btn-submenu-game,
+.btn-submenu-forum,
+.btn-submenu-events,
+.btn-submenu-trade,
+.btn-submenu-shop {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 14px;
+}
+
+.menu-dois ul li a:hover,
+.btn-submenu-home:hover,
+.btn-submenu-game:hover,
+.btn-submenu-forum:hover,
+.btn-submenu-events:hover,
+.btn-submenu-trade:hover,
+.btn-submenu-shop:hover {
+  background-color: red;
+}
+
+.content-home,
+.content-game,
+.content-forum,
+.content-events,
+.content-trade,
+.content-shop {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.content-home ul,
+.content-game ul,
+.content-forum ul,
+.content-events ul,
+.content-trade ul,
+.content-shop ul {
+  display: block;
+  width: 160px;
+}
+
+.content-home a,
+.content-game a,
+.content-forum a,
+.content-events a,
+.content-trade a,
+.content-shop a {
+  width: 131px;
+}
+
+.submenu-home:hover .content-home,
+.submenu-game:hover .content-game,
+.submenu-forum:hover .content-forum,
+.submenu-events:hover .content-events,
+.submenu-trade:hover .content-trade,
+.submenu-shop:hover .content-shop {
+  display: block;
 }
