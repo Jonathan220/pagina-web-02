@@ -1,13 +1,20 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
 }
 
 .titulo{
-  max-width: 880px;
-  height: 200px;
+  max-width: 850px;
+  height: 180px;
   margin: 40px auto 20px auto;
   border: 1px solid black;
+  padding: 20px;
+  font-size: 1.5em;
+  background-image: url(../img/titulo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .menu-um {
@@ -99,7 +106,7 @@ nav{
 .content-trade ul,
 .content-shop ul {
   display: block;
-  width: 160px;
+  width: 150px;
 }
 
 .content-home a,
@@ -108,7 +115,7 @@ nav{
 .content-events a,
 .content-trade a,
 .content-shop a {
-  width: 131px;
+  width: 122px;
 }
 
 .submenu-home:hover .content-home,
@@ -131,11 +138,13 @@ nav{
 
 .caixa-anuncio{
   border: 1px solid black;
+  padding: 20px;
   grid-column: 1/3;
 }
 
 .caixa-anuncio-02{
   border: 1px solid black;
+  padding: 20px;
   grid-column: 1/2;
 }
 
@@ -166,13 +175,16 @@ aside > div{
 
 .menu-footer{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 880px;
   margin: 10px auto;
 }
 
 .menu-footer div{
   border: 1px solid black;
-  width: 160px;
+  padding: 10px;
+  width: 122px;
   height: 300px;
 }
 
